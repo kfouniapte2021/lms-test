@@ -1,0 +1,29 @@
+ZUKULEE LMS BUSINESS RULES 
+
+For each session / Batch, the ID should be 6 characters where the 4 characters represents the Year and the 2 other characters represent the two digit of the Month where the batch starts.  
+
+The student ID should be a 10 character long where the first 4 characters is the Year of the registration and the six remaining characters is a serial number starting by 000001. 
+
+For example: 2022000001 
+
+A payment ID or a receipt Number must be 6 characters long where: 
+
+The 2 first character represents the two last digits of the Payment Year (I.e 21 for 2021, 22 for 2022, etc…) and the 4 remaining characters is a serial number starting by 000001 
+
+The following information must be collected when registering a student 
+
+First Name: the first name of the student 
+
+Last Name : the last name of the student  
+
+Sponsor: the sponsor ID/Name of the sponsor (A sponsor is a person who refers someone to Zukulee and receives a commission after the students registers and pays the training fees)  
+
+Each course should have a unique code of 6 characters. For example, FAN201 which is the course Fundamental Analysis in Level 2. 
+
+The link for student registration will be published on the Zukulee Website to allow public to access the registration form from there. Data submitted are loaded in the student table in the database. 
+
+ 
+
+Note: It will be greatly appreciated if in the LMS App, we use the word “Session” instead of batch. That will allow us to be consistent with the Zukulee data dictionary.  
+
+ 
